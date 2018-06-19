@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="870px" viewBox="0 0 1440 870" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.54922327%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4762E2" offset="0%"></stop>
+            <stop stop-color="#2611C9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1440,508.531851 L1440,856.381443 C1254.10938,808.93374 1111.29427,787.405503 1011.55469,791.796731 C714.124821,804.891658 681.131816,860.626075 419.234375,869.156304 C258.776042,874.382572 119.03125,855.328296 0,811.993475 L0,508.531851 L-1.8189894e-12,0 C108.044456,70.2147294 211.133561,100.582508 309.267316,91.1033369 C673.184095,55.9510131 673.184095,272.572056 1132.80303,254.582948 C1293.09229,248.309358 1395.49128,280.882002 1440,352.300881 L1440,508.531851 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-2" transform="translate(720.000000, 435.000000) scale(-1, 1) translate(-720.000000, -435.000000) ">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Combined-Shape" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-88" mask="url(#mask-3)" fill="#FFFFFF" opacity="0.100000001">
+                <g transform="translate(-208.000000, 539.380023)">
+                    <path d="M94.9605973,0 C343.493767,2.8980104 500.139672,84.9471958 894.59345,187.191467 C1157.56264,255.354314 1584.06411,279.121666 2174.09788,258.493523 C1380.61819,488.208206 687.572428,480.126976 94.9605973,234.249831" id="Path-2-Copy"></path>
+                    <path d="M0,353.480766 C486.423358,251.913432 894.216591,190.267472 1223.3797,168.542883 C1552.54281,146.818294 1948.08291,156.717815 2410,198.241445 C2278.58773,201.520309 1947.47539,260.079501 1416.66299,373.91902 C885.85058,487.758539 413.629584,480.945787 0,353.480766 Z" id="Path-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

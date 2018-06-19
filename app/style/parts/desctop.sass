@@ -1,0 +1,809 @@
+$transition: all 0.3s ease
+$colorWhite: #fff
+$colorGray: #939eaf
+
+
+/* Main style */
+body
+  margin: 0
+  padding: 0
+  font-family: 'SFUIDisplay-Regular'
+
+.text-left
+  text-align: left
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.text
+  color: $colorWhite
+  line-height: 50px
+  font-size: 20px
+
+h1
+  color: $colorWhite
+  max-width: 409px
+  margin-bottom: 25px
+  font-size: 45px
+
+h2
+  margin-bottom: 35px
+  line-height: 55px
+  color: #47455e
+  font-size: 45px
+
+h3, .article-small
+  color: #4a4a4a
+  line-height: 32px
+  margin-bottom: 15px
+  font-size: 22px
+
+a
+  transition: $transition
+
+  &:hover
+    color: $colorWhite
+    opacity: 0.8
+    text-decoration: none
+
+.color-white
+  color: $colorWhite
+
+.color-gray
+  color: $colorGray
+
+.section
+  padding-top: 105px
+  position: relative
+
+  .row
+    z-index: 10
+    position: relative
+
+.poa
+  position: absolute
+
+.btn
+  padding: 15px 20px
+  display: inline-block
+  border-radius: 3px
+  position: relative
+  outline: none
+  box-shadow: none
+  transition: $transition
+
+  &.btn-white
+    color: #2b1ecd
+    background-color: $colorWhite
+
+  &.btn-arrow
+    padding-right: 71px
+
+    &:before
+      content: url("../images/arrow-right.svg")
+      position: absolute
+      right: 20px
+      top: 16px
+      transition: $transition
+
+    &:hover
+      &:before
+        right: 12px
+
+.custom-input
+  width: 100%
+  padding: 20px 21px
+  box-sizing: border-box
+  background-color: $colorWhite
+  box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+  border-radius: 6px
+  border: none
+  outline: none
+  font-size: 16px
+  color: #939eaf
+  font-family: 'SFUIDisplay-Regular'
+  margin-bottom: 35px
+
+.select2-container--default .select2-selection--multiple.custom-select-box
+  outline: none
+  padding: 16px 50px 16px 20px
+  width: 100%
+  box-sizing: border-box
+  border: none
+  border-radius: 6px !important
+  box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+  font-size: 16px
+  color: #939eaf
+  font-family: 'SFUIDisplay-Regular'
+  height: inherit
+  line-height: 14px
+  cursor: pointer
+
+.select2-container--default .select2-selection--multiple.custom-select-box .select2-selection__rendered
+  line-height: 22px
+
+  li
+    display: inline-block
+    background-color: $colorWhite
+    font-family: 'SFUIDisplay-Regular'
+    font-size: 16px
+    color: #47455e
+    border: none
+    box-shadow: none
+
+.select2-container--default .select2-selection--multiple.custom-select-box .select2-selection__arrow b
+  display: none
+
+.select2-container--default .select2-selection--multiple.custom-select-box .select2-selection__choice__remove
+  display: none
+
+.select2-container--default .select2-selection--multiple.custom-select-box
+  &:before
+    content: url("../images/calculator-icons/arrow-calculator.svg")
+    position: absolute
+    transition: $transition
+    top: 24px
+    right: 18px
+
+.select2-container--default.select2-container--open .select2-selection--multiple.custom-select-box
+  &:before
+    content: url("../images/calculator-icons/arrow-calculator.svg")
+    transform: rotate(180deg)
+
+.select2-dropdown.custom-select-dropdown
+  margin-top: 15px
+  overflow: hidden
+  border: none
+  box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+  background-color: $colorWhite
+  border-radius: 6px
+
+  .select2-results__option
+    padding: 15px 40px
+    background-color: $colorWhite
+    font-size: 16px
+    color: #47455e
+    font-family: 'SFUIDisplay-Regular'
+    overflow: hidden
+    white-space: nowrap
+    position: relative
+    transition: $transition
+
+    &[aria-selected="true"]
+      &:before
+        content: url("../images/calculator-icons/checked.svg")
+        position: absolute
+        left: 20px
+        top: 16px
+
+    &:hover
+      background-color: #2b1ecd
+      color: $colorWhite
+
+      &:before
+        opacity: 0
+
+.calc-form
+  .toggle-box
+    margin-bottom: 35px
+    overflow: hidden
+    border-radius: 6px
+
+    .point
+      float: left
+      box-sizing: border-box
+      width: 50%
+      box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+      background-color: $colorWhite
+      text-align: center
+      display: inline-block
+      padding: 20px 0
+      cursor: pointer
+      font-size: 16px
+      line-height: 22px
+      transition: $transition
+
+      &.checked
+        background-color: #2b1ecd
+        box-shadow: none
+        color: $colorWhite
+
+.header
+  background-image: url("../images/bg/bg-header.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top -15px left -15px
+  padding-top: 25px
+  padding-bottom: 200px
+
+  .mouse
+    position: absolute
+    width: 22px
+    height: 32px
+    bottom: 180px
+    left: 50%
+    margin-left: -12px
+    border-radius: 15px
+    border: 2px solid $colorWhite
+    animation: intro 1s
+
+  .scroll
+    display: block
+    width: 2px
+    height: 8px
+    margin: 6px auto
+    background: $colorWhite
+    animation: finger 1s infinite
+
+  @keyframes intro
+    0%
+      opacity: 0
+      transform: translateY(40px)
+    100%
+      opacity: 1
+      transform: translateY(0)
+
+  @keyframes finger
+    0%
+      opacity: 1
+    100%
+      opacity: 0
+      transform: translateY(20px)
+
+  .social-link
+    position: absolute
+    left: -80px
+    bottom: -100px
+    margin: 0
+    padding: 0
+
+    .item
+      list-style: none
+      width: 30px
+      height: 30px
+      background-repeat: no-repeat
+      background-position: center
+      margin-bottom: 12px
+
+      &.icon-vk
+        background-image: url("../images/social-icons/vk.svg")
+        background-size: 26px
+
+      &.icon-fb
+        background-image: url("../images/social-icons/fb.svg")
+        background-size: 10px
+
+      &.icon-tw
+        background-image: url("../images/social-icons/tw.svg")
+        background-size: 18px
+
+      a
+        overflow: hidden
+        display: block
+        width: 30px
+        height: 30px
+        transition: $transition
+
+        &:hover
+          opacity: 0.8
+
+
+  .topline
+    padding-bottom: 80px
+
+    .icon-phone, .icon-email
+
+      &:before
+        content: ''
+        margin-right: 22px
+        box-shadow: 5px 10px 30px 0 rgba(132, 132, 132, 0.2)
+        background-color: $colorWhite
+        border-radius: 100%
+        display: inline-block
+        vertical-align: middle
+        width: 42px
+        height: 42px
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 16px
+
+      &:hover
+        text-decoration: underline
+
+    .icon-phone
+      margin-right: 50px
+
+      &:before
+        background-image: url("../images/other-icons/phone.svg")
+
+    .icon-email
+      &:before
+        background-image: url("../images/other-icons/mail.svg")
+
+.section1
+  padding-top: 0
+
+  .box-left
+    box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+    background-color: $colorWhite
+    border-radius: 6px
+    width: 430px
+    z-index: 10
+    margin-top: -130px
+
+    .article-small
+      margin-left: 55px
+      margin-top: 55px
+
+    ol
+      margin: 30px 20px 0 25px
+      padding: 0
+      counter-reset: item
+
+
+      li
+        list-style: none
+        display: block
+        margin-bottom: 5px
+        line-height: 22px
+        font-size: 14px
+        color: #47455e
+        cursor: pointer
+        padding: 20px 0 20px 30px
+        transition: $transition
+
+        &.active
+          background-color: #2b1ecd
+          border-radius: 6px
+          color: $colorWhite
+
+          .line
+            background-color: #fff
+
+          &:before
+            color: $colorWhite
+
+        &:before
+          content: "0" counter(item)
+          counter-increment: item
+          color: #939eaf
+          font-family: 'SFUIDisplay-Semibold'
+
+        &:last-child
+          margin-bottom: 0
+
+        .line
+          width: 17px
+          height: 1px
+          background-color: #eeeff2
+          margin: 0 12px
+          display: inline-block
+          vertical-align: middle
+
+  .box-right
+    background-color: #eeeff2
+    padding: 60px 0 60px 120px
+    position: relative
+    border-radius: 6px
+    z-index: 6
+
+    .text
+      line-height: 24px
+      font-size: 16px
+      max-width: 286px
+
+.section2
+  &:before
+    content: url("../images/shapes/1.svg")
+    position: absolute
+    left: 0
+    top: 50px
+    z-index: 2
+
+  .row-line
+    margin-bottom: 50px
+
+  .text
+    font-size: 16px
+    line-height: 24px
+    max-width: 409px
+
+  img
+    max-width: 409px
+
+  .bg-ol
+    margin: 0
+    padding: 50px 40px
+    border-radius: 6px
+    background-color: #eeeff2
+    counter-reset: item
+
+    li
+      list-style: none
+      margin-bottom: 15px
+      color: #47455e
+      font-size: 16px
+      line-height: 24px
+
+      &:before
+        content: "0" counter(item)
+        counter-increment: item
+        color: #939eaf
+        font-family: 'SFUIDisplay-Semibold'
+        margin-right: 15px
+
+      span
+        display: inline-block
+        vertical-align: middle
+        max-width: 292px
+
+      &:last-child
+        margin-bottom: 0
+
+.section3
+  padding-top: 126px
+  margin-top: -40px
+  padding-bottom: 126px
+
+  &:before
+    content: url("../images/bg/bg-2.svg")
+    position: absolute
+    left: 0
+    top: 0
+    z-index: 2
+
+
+  table
+    margin: 0
+    padding: 0
+    background-color: $colorWhite
+    border: none
+    box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+    border-radius: 6px
+    overflow: hidden
+
+    tr
+      &:first-child
+        td
+          color: #939eaf
+          padding: 20px 30px
+
+      td
+        vertical-align: middle
+        text-align: center
+        padding: 32px 30px
+        box-sizing: border-box
+        border-top: none
+        border-bottom: 1px solid #eeeff2
+        border-right: 1px solid #eeeff2
+        color: #47455e
+        font-size: 16px
+        line-height: 24px
+
+        .yes
+          &:before
+            content: url("../images/compare-table-icons/purple.svg")
+
+        .no
+          &:before
+            content: url("../images/compare-table-icons/none.svg")
+
+        &:first-child
+          text-align: left
+
+        &:nth-child(3)
+          background-color: #47455e
+          color: $colorWhite
+          border-bottom: 1px solid #47455e
+          border-right: 1px solid #47455e
+
+          .yes
+            &:before
+              content: url("../images/compare-table-icons/white.svg")
+
+        &:last-child
+          border-right: none
+
+.section4
+  .box
+    box-shadow: 5px 10px 30px 0 rgba(41, 26, 204, 0.12)
+    background-color: #2b1ecd
+    border-radius: 6px
+    padding: 35px 45px 304px
+    box-sizing: border-box
+    background-image: url("../images/cpu.svg")
+    background-repeat: no-repeat
+    background-position: bottom 50px left 50px
+
+    .article
+      font-size: 22px
+      line-height: 29px
+      margin-bottom: 10px
+      color: $colorWhite
+
+    .price
+      font-size: 22px
+      line-height: 32px
+      display: block
+      margin-bottom: 40px
+      font-family: 'SFUIDisplay-Semibold'
+      color: $colorWhite
+
+    .text
+      font-size: 16px
+      line-height: 24px
+      margin-bottom: 0
+
+  .carousel-box
+    background-color: $colorWhite
+    box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+    border-radius: 6px
+    padding: 35px 35px 24px 35px
+    overflow: hidden
+
+    .article
+      color: #4a4a4a
+      font-size: 22px
+      line-height: 29px
+      margin-bottom: 30px
+
+    .carousel
+      position: relative
+
+      .owl-item
+        float: left
+
+      .owl-nav
+        position: absolute
+        top: 120px
+        left: 0
+        width: 100%
+
+        .owl-prev, .owl-next
+          background-color: $colorWhite
+          box-shadow: none
+          border: none
+          width: 56px
+          height: 56px
+          border-radius: 100%
+          position: absolute
+          box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+          outline: none
+          cursor: pointer
+          transform: $transition
+
+          &:hover
+            opacity: 0.7
+
+          span
+            display: none
+
+        .owl-prev
+          left: -25px
+
+          &:before
+            content: url('../images/arrow-left.svg')
+
+        .owl-next
+          right: -25px
+
+          &:before
+            content: url('../images/arrow-right.svg')
+
+
+      .item
+        .image
+          background-color: #eeeff2
+          border-radius: 6px
+          background-repeat: no-repeat
+          background-position: center
+          background-size: contain
+          height: 269px
+          margin-bottom: 20px
+          display: block
+
+        .article
+          line-height: 32px
+          display: inline-block
+          vertical-align: middle
+          margin-bottom: 0
+          margin-right: 30px
+
+        .price
+          display: inline-block
+          vertical-align: middle
+          color: #2b1ecd
+          font-family: 'SFUIDisplay-Semibold'
+          font-size: 22px
+
+        .vat
+          margin-top: 10px
+
+          &-article
+            font-size: 16px
+            line-height: 24px
+            color: #939eaf
+
+          &-text
+            font-size: 16px
+            color: #47455e
+            line-height: 24px
+
+.section5
+  .list-icons
+    margin: 0
+    padding: 0
+
+    .item
+      margin-bottom: 35px
+      list-style: none
+
+      &:before
+        content: ''
+        box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+        background-color: $colorWhite
+        width: 72px
+        height: 72px
+        display: inline-block
+        vertical-align: top
+        margin-right: 25px
+        border-radius: 100%
+        line-height: 72px
+        position: relative
+        text-align: center
+
+      .box
+        display: inline-block
+        max-width: 426px
+
+        .article
+          color: #2b1ecd
+          font-size: 16px
+          line-height: 26px
+          font-family: 'SFUIDisplay-Semibold'
+          margin-bottom: 5px
+
+        .text
+          font-size: 16px
+          color: #939eaf
+          line-height: 24px
+          margin-bottom: 0
+
+      &.icon-1:before
+        content: url("../images/other-icons/settings.svg")
+        line-height: 88px
+
+      &.icon-2:before
+        content: url("../images/other-icons/shield.svg")
+        line-height: 88px
+
+      &.icon-3:before
+        content: url("../images/other-icons/monitor.svg")
+        line-height: 88px
+
+      &.icon-4:before
+        content: url("../images/other-icons/message.svg")
+        line-height: 86px
+
+      &.icon-5:before
+        content: url("../images/other-icons/toggle.svg")
+        line-height: 82px
+
+  .text-small
+    font-size: 16px
+    color: #47455e
+    margin-bottom: 0
+    line-height: 24px
+    margin-top: 5px
+
+.section6
+  &:before
+    content: url("../images/shapes/2.svg")
+    position: absolute
+    left: -400px
+    top: 250px
+    z-index: 2
+
+  .box-left
+    background-color: #eeeff2
+    border-radius: 6px
+    width: 430px
+    z-index: 10
+    padding: 55px
+    box-sizing: border-box
+
+    .article-small
+      font-size: 24px
+      color: #47455e
+      line-height: 34px
+      margin-bottom: 50px
+
+  .box-right
+    background-color: #2b1ecd
+    margin-top: 190px
+    padding: 50px 170px 50px 120px
+    position: relative
+    border-radius: 6px
+    z-index: 6
+
+  .article-small
+    font-size: 30px
+    line-height: 40px
+    color: $colorWhite
+
+  .text
+    line-height: 24px
+    font-size: 16px
+
+    span
+      font-family: 'SFUIDisplay-Semibold'
+
+  .calc-second
+    margin-top: 65px
+
+    .box-right
+      padding-right: 45px
+      padding-left: 110px
+      margin-top: 20px
+
+      .article-small
+        margin-bottom: 0
+
+    .infoblock
+      position: absolute
+      right: 40px
+      top: 160px
+      border-radius: 6px
+      box-shadow: 5px 8px 15px 0 rgba(71, 69, 94, 0.15)
+      background-color: $colorWhite
+      padding: 75px 45px 45px 45px
+      box-sizing: border-box
+      max-width: 444px
+
+      .kurs
+        font-size: 30px
+        color: #2b1ecd
+        line-height: 40px
+        margin-bottom: 10px
+
+        &.end-item
+          margin-bottom: 50px
+
+      .text
+        font-size: 16px
+        line-height: 24px
+        color: #939eaf
+        margin-bottom: 10px
+
+        span
+          color: #47455e
+
+.section7
+  padding-top: 400px
+
+  .box
+    z-index: 10
+    position: relative
+
+  .capsula
+    position: relative
+
+    &.capsula-blue
+      &:before
+        content: url("../images/bg/bg-left.svg")
+        position: absolute
+        left: -195px
+        top: 0
+        z-index: 4
+
+
+
+
+
+
+
+
+

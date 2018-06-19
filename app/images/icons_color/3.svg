@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="81px" viewBox="0 0 95 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_support-61</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
+            <stop stop-color="#2B1ECD" stop-opacity="0.572888361" offset="0%"></stop>
+            <stop stop-color="#26D0CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_support-61" transform="translate(2.000000, 0.000000)">
+            <circle id="Oval" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" cx="58" cy="35" r="35"></circle>
+            <rect id="Rectangle-path" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="32" y="71" width="14" height="8" rx="4"></rect>
+            <path d="M34.5,38 C34.4993982,35.6269293 36.1669524,33.5803319 38.4912232,33.1015522 C40.8154941,32.6227726 43.1561336,33.8437169 44.0934487,36.0238327 C45.0307639,38.2039485 44.3065198,40.7426035 42.36,42.1 C41.55,42.67 39.41,43.77 39.5,49" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#347591" fill-rule="nonzero" transform="translate(39.503130, 55.965670) rotate(-30.000000) translate(-39.503130, -55.965670) " cx="39.5031305" cy="55.9656705" r="3"></circle>
+            <path d="M74,36 C76.209139,36 78,37.790861 78,40 L78,50 C78,52.21 76.71,54 74.5,54 L69,54" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M4,36 C1.790861,36 0,37.790861 0,40 L0,50 C0,52.21 2.29,54 4.5,54 L10.59,54 L10.37,53.19 C6.41120929,37.1451694 16.173943,20.920346 32.2042864,16.9032946 C48.2346298,12.8862432 64.4948117,22.5899717 68.5700708,38.6056164 C72.64533,54.6212611 63.0007346,70.9165869 47,75.05" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

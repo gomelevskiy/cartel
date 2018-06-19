@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="81px" viewBox="0 0 84 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_liquidity-74</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
+            <stop stop-color="#2B1ECD" stop-opacity="0.572888361" offset="0%"></stop>
+            <stop stop-color="#26D0CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_liquidity-74" transform="translate(2.000000, 0.000000)">
+            <circle id="Oval" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" cx="47" cy="35" r="35"></circle>
+            <path d="M30.5,65.62 C20.6175528,63.7140185 13.4768832,55.064568 13.4768832,45 C13.4768832,34.935432 20.6175528,26.2859815 30.5,24.38" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M38.5,24.38 C48.3824472,26.2859815 55.5231168,34.935432 55.5231168,45 C55.5231168,55.064568 48.3824472,63.7140185 38.5,65.62" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M39.17,39.63 C32.9,35.14 30.24,39.49 30.66,41.9 C31,44 34,44.74 35.2,44.92 C43.81,46.15 38.07,56.32 29.53,49.98" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M34.49,35.09 L34.5,37.46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M34.49,51.96 L34.5,55.09" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M53,66 L61,66" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M61,74 L61,66" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60.66,66.83 C59.9933333,67.59 59.3266667,68.3266667 58.66,69.04 C48.3941935,79.2718334 32.7821395,81.896204 19.7351668,75.5832253 C6.68819402,69.2702466 -0.942459903,55.3995338 0.71,41" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M15,24 L8,24" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8,16 L8,24" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8.34,23.17 C9.00666667,22.41 9.67333333,21.6733333 10.34,20.96 C20.6058065,10.7281666 36.2178605,8.10379603 49.2648332,14.4167747 C62.311806,20.7297534 69.9424599,34.6004662 68.29,49" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

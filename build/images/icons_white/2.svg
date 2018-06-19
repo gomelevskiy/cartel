@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="80px" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_taxes-78</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_taxes-78" transform="translate(2.000000, 0.000000)">
+            <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.0800000057" x="7" y="0" width="70" height="70" rx="35"></rect>
+            <path d="M0.5,31 C0.5,28.79 2.79,27 5,27 L28,27" id="Shape" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M52,58 L52,74 C52,76.21 51.21,78 49,78 L5,78 C2.79,78 0,76.21 0,74 L0,39" id="Shape" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(41.995499, 26.002940) rotate(-30.000000) translate(-41.995499, -26.002940) " cx="41.9954988" cy="26.0029399" r="3"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(53.997804, 37.995245) rotate(-30.000000) translate(-53.997804, -37.995245) " cx="53.9978037" cy="37.9952448" r="3"></circle>
+            <path d="M41,39 L55,25" id="Shape" stroke="#FFFFFF" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10,68 L42,68" id="Shape" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10,62 L25,62" id="Shape" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3.67" stroke-linecap="round" stroke-linejoin="round" cx="48" cy="32" r="19"></circle>
+        </g>
+    </g>
+</svg>

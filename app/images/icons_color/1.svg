@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="78px" viewBox="0 0 81 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_security_2-70</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
+            <stop stop-color="#2B1ECD" offset="0%"></stop>
+            <stop stop-color="#26D0CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_security_2-70" transform="translate(2.000000, 0.000000)">
+            <rect id="Rectangle-path" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" x="9" y="0" width="70" height="70" rx="35"></rect>
+            <path d="M29,75.34 C17.71,69.77 1.51,51.34 0,27 L29,12" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M29,12 L29,73" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,27 L29,12" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M29,75.34 C38.91,70.43 52.72,55.22 56.88,35" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M3,40 L29,66" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M3,27 L29,53" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M11,22 L29,40" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M19.47,17.47 L29,27" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

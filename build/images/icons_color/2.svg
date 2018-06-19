@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="79px" viewBox="0 0 82 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_big_data-94</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
+            <stop stop-color="#2B1ECD" offset="0%"></stop>
+            <stop stop-color="#26D0CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_big_data-94" transform="translate(2.000000, 0.000000)">
+            <circle id="Oval" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" cx="45" cy="35" r="35"></circle>
+            <path d="M36,55 L36,69" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(36.003194, 75.996261) rotate(-30.000000) translate(-36.003194, -75.996261) " cx="36.003194" cy="75.9962609" r="3"></circle>
+            <polyline id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="26 55 26 69 20 69"></polyline>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(13.004610, 69.004083) rotate(-30.000000) translate(-13.004610, -69.004083) " cx="13.0046097" cy="69.0040831" r="3"></circle>
+            <polyline id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="46 55 46 69 52 69"></polyline>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(59.004083, 68.998222) rotate(-60.000000) translate(-59.004083, -68.998222) " cx="59.0040831" cy="68.9982217" r="3"></circle>
+            <path d="M36,55 L26,55 M16.91,54.83 L14.64,54.74 C9.69589969,55.0618867 4.97815765,52.627372 2.37581557,48.4112654 C-0.226526522,44.1951588 -0.288068585,38.8866596 2.21583157,34.6113557 C4.71973173,30.3360519 9.37976615,27.7928195 14.33,28 C16.8635362,19.7868614 24.0550816,13.8790963 32.6038188,12.9882852 C41.1525559,12.0974741 49.407599,16.3956457 53.58,23.91 C54.13,23.86 54.69,23.83 55.24,23.83 C63.3662587,23.6769948 70.223382,29.8423628 70.9321429,37.9390998 C71.6409038,46.0358367 65.9592517,53.2988066 57.93,54.56 L55.1,54.88" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M39.84,39.24 C39.8769646,35.0919617 41.5603026,31.1285194 44.519663,28.2216698 C47.4790234,25.3148203 51.4719646,23.702703 55.62,23.74" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

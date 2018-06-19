@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="78px" viewBox="0 0 85 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>colored_crypto-92</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
+            <stop stop-color="#2B1ECD" stop-opacity="0.572888361" offset="0%"></stop>
+            <stop stop-color="#26D0CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored_crypto-92" transform="translate(2.000000, 0.000000)">
+            <rect id="Rectangle-path" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" x="13" y="0" width="70" height="70" rx="35"></rect>
+            <path d="M18,76 L4,76 C1.790861,76 0,74.209139 0,72 L0,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M62,26 L32,26" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="61" cy="36" r="3"></circle>
+            <path d="M34,36 L52,36" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="35" cy="46" r="3"></circle>
+            <path d="M62,46 L44,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="61" cy="56" r="3"></circle>
+            <path d="M34,56 L52,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M13,66 L13,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M62,76 L26,76" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26,46 L0,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26,66 L62,66" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0,38 C0.276142375,30.8202983 6.32029825,25.2238576 13.5,25.5 C20.6797017,25.7761424 26.2761424,31.8202983 26,39 L26,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
