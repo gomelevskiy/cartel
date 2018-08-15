@@ -1,30 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="85px" height="78px" viewBox="0 0 85 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>colored_crypto-92</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="100%" x2="8.06207357%" y2="3.92341958%" id="linearGradient-1">
-            <stop stop-color="#2B1ECD" stop-opacity="0.572888361" offset="0%"></stop>
-            <stop stop-color="#26D0CE" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="colored_crypto-92" transform="translate(2.000000, 0.000000)">
-            <rect id="Rectangle-path" fill-opacity="0.04" fill="#2B1ECD" fill-rule="nonzero" x="13" y="0" width="70" height="70" rx="35"></rect>
-            <path d="M18,76 L4,76 C1.790861,76 0,74.209139 0,72 L0,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M62,26 L32,26" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="61" cy="36" r="3"></circle>
-            <path d="M34,36 L52,36" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="35" cy="46" r="3"></circle>
-            <path d="M62,46 L44,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="61" cy="56" r="3"></circle>
-            <path d="M34,56 L52,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M13,66 L13,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M62,76 L26,76" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M26,46 L0,46" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M26,66 L62,66" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M0,38 C0.276142375,30.8202983 6.32029825,25.2238576 13.5,25.5 C20.6797017,25.7761424 26.2761424,31.8202983 26,39 L26,56" id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="72" viewBox="0 0 81 72">
+  <defs>
+    <linearGradient id="4-a" x1="100%" x2="8.062%" y1="100%" y2="3.923%">
+      <stop offset="0%" stop-color="#2B1ECD" stop-opacity=".573"/>
+      <stop offset="100%" stop-color="#26D0CE"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2)">
+    <circle cx="35" cy="35" r="35" fill="#2B1ECD" fill-opacity=".04" fill-rule="nonzero" transform="translate(9)"/>
+    <g stroke="url(#4-a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(0 26)">
+      <path d="M10 28L0 28M72 28L62 28M72 5L72 39.9C72 41.72 69.79 44 68 44L4 44C2.21 44 0 41.72 0 39.9L0 12M72 12L0 12"/>
+      <path d="M0 4C.140903304 1.85192925 1.85192925.140903304 4 0L68.89 0C70.67 0 72 2.08 72 3.9L72 12M27.33 32.17C26.3053128 32.7167368 25.1614222 33.0018506 24 33 21.2385763 33 19 30.7614237 19 28 19 25.2385763 21.2385763 23 24 23 25.1614222 22.9981494 26.3053128 23.2832632 27.33 23.83"/>
+      <polyline points="32 23 37 33 42 23"/>
+      <polyline points="46 23 51 33 56 23"/>
     </g>
+  </g>
 </svg>

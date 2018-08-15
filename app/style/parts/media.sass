@@ -1,0 +1,333 @@
+/* Mobile device */
+@media screen and (max-width: 1440px)
+  body
+    .header
+      .text
+        font-size: 16px
+        line-height: 24px
+
+      .mouse
+        display: none
+        visibility: hidden
+
+      .topline
+        .text-right
+          a
+            font-size: 14px
+            letter-spacing: 1px
+            margin-top: 20px
+            display: inline-block
+
+      .social-link
+        left: 0
+        bottom: 0
+
+    .section1
+      .box-left
+        ol
+          li
+            font-size: 14px
+
+    .section2
+      .bg-ol
+        li
+          font-size: 14px
+
+          span
+            max-width: 250px
+
+    .section3
+      &:before
+        content: ''
+        width: 100%
+        height: 100%
+        background-image: url('../images/bg/bg-2.svg')
+        background-repeat: no-repeat
+        background-size: cover
+
+
+    .section5
+      .list-icons
+        .item
+          .box
+            max-width: 340px
+
+      .text-small
+        font-size: 14px
+
+    .section11
+      &:before
+        content: ''
+        width: 100%
+        height: 100%
+        background-image: url('../images/bg/bg-4.svg')
+        background-repeat: no-repeat
+        background-size: cover
+
+    .footer
+      .footer-info
+        padding-right: 160px
+
+@media screen and (max-width: 1200px)
+  body
+    .section1
+      .box-left
+        ol
+          li
+            font-size: 12px
+
+    .header
+      .topline
+        .box-phone
+          a
+            &:before
+              margin-right: 0
+
+            span
+              visibility: hidden
+              opacity: 0
+              display: none
+              transition: $transition
+
+      .social-link
+        position: relative
+        margin-top: 20px
+
+        .item
+          display: inline-block
+
+
+@media screen and (max-width: 992px)
+  body
+    .m-hide
+      display: none
+      visibility: hidden
+
+    h1
+      max-width: 100%
+
+    h2
+      font-size: 32px
+      line-height: 42px
+
+    .carousel .owl-nav .owl-prev
+      left: 0
+
+    .carousel .owl-nav .owl-next
+      right: 0
+
+    .text
+      font-size: 16px
+      line-height: 24px
+
+    .section-icon
+      .text
+        max-width: 100%
+
+    .header
+      .topline
+        text-align: center
+        padding-bottom: 0
+
+        .box-phone
+          position: fixed
+          bottom: 20px
+          width: 100%
+          left: 0
+          z-index: 999
+
+          .icon-phone:before,
+          .icon-email:before
+            width: 64px
+            height: 64px
+            line-height: 64px
+            background-size: 28px
+
+        .text-left
+          text-align: center !important
+
+        .logo
+          margin: 0 auto 8px
+          display: inline-block
+
+      .btn
+        margin-top: 56px
+
+    .section
+      .col-table
+        overflow-x: auto
+
+        table
+          overflow: auto
+
+          tr
+            td
+              background-color: #fff
+
+              &:nth-child(3)
+                background-color: #47455e
+
+    .section2
+      img
+        max-width: 100%
+
+      &:before
+        display: none
+
+      .bg-ol
+        padding: 30px 15px
+
+        li
+          span
+            max-width: 224px
+
+    .section3
+      background-image: url("../images/bg/bg-2.svg")
+      background-repeat: no-repeat
+      background-position: top 100px center
+
+      &:before
+        display: none
+
+      table
+        tr
+          td
+            min-width: 247px
+
+    .section4
+      .box
+        margin-top: 30px
+
+    .section5
+      .list-icons
+        .item
+          &:before
+            display: block
+            margin-bottom: 20px
+
+      .text-small
+        margin-bottom: 45px
+
+    .section6
+      &:before
+        display: none
+
+      .box-left
+        width: 100%
+        padding: 25px
+        position: relative
+
+        .select2-container
+          width: 100% !important
+
+      .box-right
+        margin-top: 40px
+
+        .contain
+          padding: 25px
+
+        .infoblock
+          position: relative
+          top: -50px
+          padding: 75px 25px 25px 25px
+          max-width: 100%
+          left: 0
+
+    .section7
+      padding-top: 105px
+
+      .capsula-grey
+        padding-bottom: 0
+        padding-top: 100px
+
+      .capsula.capsula-blue:before
+        top: -140px
+
+    .section9
+      padding-bottom: 120px
+      background-size: cover
+      background-position: top 100px center
+
+    .section10
+      &_bg
+        background: none
+
+      &_listbox
+        li
+          margin-right: 0
+          width: 100%
+          margin-bottom: 35px
+
+    .section11
+      background-image: url("../images/bg/bg-4.svg")
+      background-repeat: no-repeat
+      background-position: top -278px center
+      background-size: cover
+
+      &:before
+        display: none
+
+      .form-question
+        padding: 30px 25px
+
+    .section12
+      .item
+        max-width: 100%
+
+    .section14
+      .accordeon-item
+        padding: 35px 72px 35px 35px
+
+        .article
+          max-width: 100%
+          white-space: normal
+          font-size: 18px
+          line-height: 28px
+          max-height: 56px
+          margin-bottom: 0
+
+        .text
+          margin-top: 10px
+
+        &.active
+          .article
+            max-height: inherit
+
+    .section15
+      padding-bottom: 0
+
+      .reviews-carousel
+        margin-top: 50px
+
+    .footer
+
+      .footer-info
+        padding: 15px
+        margin-left: 0
+        margin-top: 0
+        max-height: inherit
+        display: block
+        width: 100%
+
+      .footer-form
+        max-width: 100%
+        margin-top: 0
+        margin-left: 0
+
+      .block
+        margin-top: 50px
+        display: block
+        margin-bottom: 150px
+        padding: 15px
+        box-sizing: border-box
+
+        .block-left, .block-right
+          float: inherit
+
+          .politica-conf__text
+            margin-bottom: 10px
+
+@media screen and (max-width: 640px)
+  body
+    .section11
+      background-position: top -340px center
