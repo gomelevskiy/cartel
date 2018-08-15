@@ -1,4 +1,4 @@
-# Gulp start project
+# Cartel project
 
 ### Initialization
 
